@@ -1,0 +1,5 @@
+Host alebedev_storagebox
+    User  {{ onepasswordRead "op://Personal/alebedev StorageBox/username" }}
+    HostName {{ (index (onepassword "hnv3g4rnzcushcqpcslnra4ksu").urls 0).href }}
+    IdentityFile ~/.ssh/alebedev
+    Port 23

@@ -1,0 +1,5 @@
+Host admin_storagebox
+    User  {{ onepasswordRead "op://Personal/Account StorageBox/username" }}
+    HostName {{ (index (onepassword "rroglyuwez4xyfg733ipj74dyq").urls 0).href }}
+    IdentityFile ~/.ssh/hetzner_box
+    Port 23

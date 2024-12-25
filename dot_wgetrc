@@ -1,0 +1,17 @@
+# Progress bar
+progress = bar:force
+# Wait N seconds before timing out. This applies to all timeouts: DNS, connect and read. (The default read timeout is 15 minutes!)
+timeout = 60
+# You can lower (or raise) the default number of retries when
+# downloading a file (default is 20).
+tries = 5
+# Retry even when the connection was refused
+retry_connrefused = on
+# Set this to on to use timestamping by default:
+timestamping = on
+# Add a `.html` extension to `text/html` or `application/xhtml+xml` files that lack one, or a `.css` extension to `text/css` files that lack one
+adjust_extension = on
+# Ignore `robots.txt` and `<meta name=robots content=nofollow>`
+robots = off
+# Print the HTTP and FTP server responses
+server_response = on

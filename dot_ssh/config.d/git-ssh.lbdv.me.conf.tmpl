@@ -1,0 +1,4 @@
+Host git-ssh.lbdv.me
+    User {{ .chezmoi.username }}
+    ProxyCommand /usr/local/bin/cloudflared access ssh --hostname %h
+    IdentityFile ~/.ssh/alebedev

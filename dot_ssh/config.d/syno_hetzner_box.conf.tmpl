@@ -1,0 +1,5 @@
+Host syno_storagebox
+    User  {{ onepasswordRead "op://Personal/Syno StorageBox/username" }}
+    HostName {{ (index (onepassword "ppgpqal7h6grgeqaz7cds63miq").urls 0).href }}
+    IdentityFile ~/.ssh/hetzner_synology_backup
+    Port 23

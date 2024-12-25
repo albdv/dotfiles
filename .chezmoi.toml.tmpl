@@ -1,0 +1,21 @@
+{{- $email := "" -}}
+{{- if (hasKey . "email") -}}
+{{-   $email = .email -}}
+{{- else -}}
+{{-   $email = promptString "email" -}}
+{{- end -}}
+
+{{- $gpgsign := "" -}}
+{{- if (hasKey . "gpgsign") -}}
+{{-   $gpgsign = .gpgsign -}}
+{{- else -}}
+{{-   $gpgsign = promptString "gpgsign" -}}
+{{- end -}}
+
+[git]
+    autoCommit = true
+    autoPush = true
+
+[data]
+    email = {{ $email | quote }}
+    gpgsign = {{ $gpgsign | quote }}
