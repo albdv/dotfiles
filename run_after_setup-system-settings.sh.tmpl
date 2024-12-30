@@ -6,7 +6,15 @@ set -ex
 echo "> Using fish shell"
 
 # Check if fish is the default shell
+{{ if .chezmoi.arch eq "arm64" }}
 if [ "$SHELL" != "/opt/homebrew/bin/fish" ]; then
     echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
     chsh -s /opt/homebrew/bin/fish
 fi
+{{ end }}
+{{ if .chezmoi.arch eq "amd64" }}
+if [ "$SHELL" != "/usr/local/bin/fish" ]; then
+    echo /usr/local/bin/fish | sudo tee -a /etc/shells
+    chsh -s /usr/local/bin/fish
+fi
+{{ end }}
