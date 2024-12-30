@@ -18,9 +18,8 @@ for file in $__fish_config_dir/custom.d/*.fish
   source $file
 end
 
-## Add macports
-fish_add_path /opt/local/bin
-fish_add_path /opt/local/sbin
+## brew
+brew shellenv | source
 
 ## Direnv
 if type -q direnv
