@@ -41,9 +41,6 @@
 	fsckobjects = true
     prune = true
 	prunetags = true
-# [hub]
-# [gitreview]
-#	username =
 [branch]
 	autosetupbase = always
 	sort = -committerdate
@@ -63,6 +60,8 @@
 	recurse = true
 [log]
 	date = iso
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/
 [color]
     ui = auto
 [color "status"]
