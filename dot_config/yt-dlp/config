@@ -1,0 +1,12 @@
+# change the output placeholder
+--output-na-placeholder ""
+# format output
+--output "./%(playlist_title)s/%(playlist_index)03d%(playlist_index&-)s%(title)s.%(ext)s"
+# add the best format selection
+--format "bv*+ba/b"
+# parallel fragments
+--concurent-fragments 4
+# sponsorblock
+--sponsorblock-remove all
+# download only videos not listed in lock file
+--download-archive list.lock
