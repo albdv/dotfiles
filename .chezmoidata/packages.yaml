@@ -152,3 +152,4 @@ packages:
       - 'h-matsuo/fish-color-scheme-switcher'
       - 'gazorby/fish-abbreviation-tips'
       - 'ilancosman/tide@v6'
+      - 'lewisacidic/fish-kubectl-abbr'
