@@ -5,7 +5,7 @@
 # add the best format selection
 --format "bv*+ba/b"
 # parallel fragments
---concurent-fragments 4
+--concurrent-fragments 4
 # sponsorblock
 --sponsorblock-remove all
 # download only videos not listed in lock file
