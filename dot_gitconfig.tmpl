@@ -6,13 +6,17 @@
 [commit]
 	gpgsign = true
 	verbose = true
-	cleanup = scissors 
+	cleanup = scissors
+[column]
+    ui = auto
 [tag]
 	gpgSign = true
 	sort = taggerdate
 [core]
 	excludesfile = {{ .chezmoi.homeDir }}/.gitignore
 	pager = delta
+    # fsmonitor = true
+    # untrackedCache = true
 [init]
 	defaultBranch = master
 [interactive]
@@ -24,6 +28,8 @@
 	tool = difftastic
 	colorMovedWS = allow-indentation-change
 	context = 10
+    mnemonicPrefix = true
+    renames = true
 [delta]
 	navigate = true
 	light = false
@@ -32,15 +38,20 @@
 [push]
 	default = current
 	autoSetupRemote = true
-	followtags = true
+	followTags = true
 [rebase]
-	autosquash = true
+	autoSquash = true
+    autoStash = true
 	missingCommitsCheck = error
 	updateRefs = true
+[rerere]
+    enabled = true
+    autoupdate = true
 [fetch]
 	fsckobjects = true
     prune = true
-	prunetags = true
+	pruneTags = true
+    all = true
 [branch]
 	autosetupbase = always
 	sort = -committerdate
@@ -62,6 +73,8 @@
 	date = iso
 [url "ssh://git@github.com/"]
   insteadOf = https://github.com/
+[help]
+    autocorrect = prompt
 [color]
     ui = auto
 [color "status"]
