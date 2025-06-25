@@ -1,154 +1,189 @@
 packages:
   darwin:
     taps:
-      - 'aws/tap'
-      - 'cloudflare/cloudflare'
-      - 'danielfoehrkn/switch'
-      - 'ffmpeg/homebrew-ffmpeg'
-      - 'go-task/tap'
-      - 'gromgit/fuse'
-      - 'hashicorp/tap'
-      - 'homebrew/bundle'
-      - 'homebrew/services'
-      - 'localstack/tap'
-      - 'ubuntu/microk8s'
-      - 'uenob/qemu-hvf'
-      - 'warrensbox/tap'
-      - 'zerotier/tap'
+      - "aws/tap"
+      - "cloudflare/cloudflare"
+      - "danielfoehrkn/switch"
+      - "go-task/tap"
+      - "gromgit/fuse"
+      - "hashicorp/tap"
+      - "homebrew-ffmpeg/ffmpeg"
+      - "homebrew/bundle"
+      - "homebrew/services"
+      - "localstack/tap"
+      - "ubuntu/microk8s"
+      - "uenob/qemu-hvf"
+      - "warrensbox/tap"
+      - "zerotier/tap"
     brews:
-      - 'aria2'
-      - 'bfg'
-      - 'cdrtools'
-      - 'chezmoi'
-      - 'cloudflared'
-      - 'cointop'
-      - 'colima'
-      - 'coreutils'
-      - 'curl'
-      - 'difftastic'
-      - 'direnv'
-      - 'docker'
-      - 'docker-compose'
-      - 'e2fsprogs'
-      - 'ffmpeg'
-      - 'findutils'
-      - 'fish'
-      - 'fisher'
-      - 'fzf'
-      - 'git'
-      - 'git-crypt'
-      - 'git-sizer'
-      - 'gnu-sed'
-      - 'gnupg'
-      - 'go'
-      - 'harfbuzz'
-      - 'helm'
-      - 'helm-ls'
-      - 'hopenpgp-tools'
-      - 'htop'
-      - 'jo'
-      - 'jq'
-      - 'kubectx'
-      - 'libvirt'
-      - 'localstack'
-      - 'lolcat'
-      - 'mas'
-      - 'moreutils'
-      - 'mtr'
-      - 'nload'
-      - 'nmap'
-      - 'ovmf'
-      - 'packer'
-      - 'paperkey'
-      - 'pinentry-mac'
-      - 'pwgen'
-      - 'pyenv'
-      - 'pyenv-virtualenv'
-      - 'qemu'
-      - 'qpdf'
-      - 'shfmt'
-      - 'ssh-audit'
-      - 'switch'
-      - 'tcping'
-      - 'telnet'
-      - 'terraform'
-      - 'terraform-local'
-      - 'terragrunt'
-      - 'tesseract-lang'
-      - 'trash'
-      - 'tree'
-      - 'watch'
-      - 'wget'
-      - 'wireguard-tools'
-      - 'ykman'
-      - 'ykpers'
-      - 'yt-dlp'
+      - "ansible-language-server"
+      - "ansible-lint"
+      - "aria2"
+      - "harfbuzz"
+      - "bfg"
+      - "cdrtools"
+      - "chezmoi"
+      - "cloudflared"
+      - "cmatrix"
+      - "codeberg-cli"
+      - "cointop"
+      - "colima"
+      - "coreutils"
+      - "curl"
+      - "difftastic"
+      - "direnv"
+      - "docker"
+      - "docker-compose"
+      - "e2fsprogs"
+      - "ffmpeg"
+      - "findutils"
+      - "fish"
+      - "fisher"
+      - "fzf"
+      - "git"
+      - "git-cal"
+      - "git-crypt"
+      - "git-extras"
+      - "git-sizer"
+      - "git-who"
+      - "gnu-sed"
+      - "gnupg"
+      - "go"
+      - "harfbuzz"
+      - "helm"
+      - "helm-ls"
+      - "hopenpgp-tools"
+      - "htop"
+      - "httping"
+      - "iperf3"
+      - "jo"
+      - "jq"
+      - "just"
+      - "kubectx"
+      - "libvirt"
+      - "localstack"
+      - "lolcat"
+      - "mas"
+      - "moreutils"
+      - "mtr"
+      - "nload"
+      - "nmap"
+      - "paperkey"
+      - "pinentry-mac"
+      - "pipx"
+      - "poppler"
+      - "pstree"
+      - "pwgen"
+      - "pyenv"
+      - "pyenv-virtualenv"
+      - "qemu"
+      - "qpdf"
+      - "shfmt"
+      - "ssh-audit"
+      - "switch"
+      - "tcping"
+      - "telnet"
+      - "terminal-notifier"
+      - "terraform"
+      - "terraform-local"
+      - "terragrunt"
+      - "tesseract-lang"
+      - "trash"
+      - "tree"
+      - "watch"
+      - "wget"
+      - "wireguard-tools"
+      - "ykman"
+      - "ykpers"
+      - "yt-dlp"
+      - "danielfoehrkn/switch/switch"
+      - "hashicorp/tap/packer"
+      - "uenob/qemu-hvf/ovmf"
     casks:
-      - '1password'
-      - '1password-cli'
-      - 'appcleaner'
-      - 'balenaetcher'
-      - 'bartender'
-      - 'calibre'
-      - 'cloudflare-warp'
-      - 'concept2-utility'
-      - 'deepl'
-      - 'firefox@esr'
-      - 'flux'
-      - 'font-fira-code-nerd-font'
-      - 'font-fira-mono-nerd-font'
-      - 'font-jetbrains-mono-nerd-font'
-      - 'garmin-basecamp'
-      - 'garmin-express'
-      - 'iterm2'
-      - 'keybase'
-      - 'ledger-live'
-      - 'little-snitch'
-      - 'maestral'
-      - 'microsoft-auto-update'
-      - 'microsoft-teams'
-      - 'rectangle'
-      - 'scroll-reverser'
-      - 'spotify'
-      - 'steam'
-      - 'switchhosts'
-      - 'synology-drive'
-      - 'telegram-desktop'
-      - 'the-unarchiver'
-      - 'transmission'
-      - 'tunnelblick'
-      - 'visual-studio-code'
-      - 'vlc'
-      - 'wireshark'
-      - 'zed'
+      - "1password"
+      - "1password-cli"
+      - "adium"
+      - "appcleaner"
+      - "balenaetcher"
+      - "bartender"
+      - "calibre"
+      - "cloudflare-warp"
+      - "concept2-utility"
+      - "deepl"
+      - "firefox@esr"
+      - "flux-app"
+      - "font-fira-code-nerd-font"
+      - "font-fira-mono-nerd-font"
+      - "font-jetbrains-mono-nerd-font"
+      - "garmin-express"
+      - "google-chrome"
+      - "iterm2"
+      - "keybase"
+      - "ledger-live"
+      - "little-snitch"
+      - "maestral"
+      - "marta"
+      - "microsoft-auto-update"
+      - "microsoft-teams"
+      - "mucommander"
+      - "pycharm-ce"
+      - "rectangle"
+      - "scroll-reverser"
+      - "spotify"
+      - "steam"
+      - "switchhosts"
+      - "synology-drive"
+      - "telegram-desktop"
+      - "the-unarchiver"
+      - "tigervnc-viewer"
+      - "transmission"
+      - "tunnelblick"
+      - "utm"
+      - "visual-studio-code"
+      - "vlc"
+      - "whatsapp"
+      - "whisky"
+      - "wireshark-app"
+      - "xnviewmp"
+      - "yubico-yubikey-manager"
+      - "zoom"
+      - "zed"
     mas:
-      - name: '1Password for Safari'
+      - name: "1Password for Safari"
         id: 1569813296
-      - name: 'Amphetamine'
+      - name: "Amphetamine"
         id: 937984704
-      - name: 'Caramba Switcher'
+      - name: "Caramba Switcher"
         id: 1565826179
-      - name: 'Keynote' 
+      - name: "Keynote"
         id: 409183694
-      - name: 'MacFamilyTree 10'
+      - name: "MacFamilyTree 10"
         id: 1567970985
-      - name: 'NextDNS'
+      - name: "NextDNS"
         id: 1464122853
-      - name: 'Notebooks'
+      - name: "Notebooks"
         id: 1449826029
-      - name: 'Numbers'
+      - name: "Numbers"
         id: 409203825
-      - name: 'Pages'
+      - name: "Pages"
         id: 409201541
-      - name: 'Pixea'
+      - name: "Pixea"
         id: 1507782672
-      - name: 'Reeder'
+      - name: "Reeder"
         id: 1529448980
+      - name: "RSSHub Radar"
+        id: 1610744717
+      - name: "SessionRestore"
+        id: 1463334954
     fisher:
-      - 'jethrokuan/z'
-      - 'patrickf1/fzf.fish'
-      - 'jorgebucaran/autopair.fish'
-      - 'h-matsuo/fish-color-scheme-switcher'
-      - 'gazorby/fish-abbreviation-tips'
-      - 'ilancosman/tide@v6'
-      - 'lewisacidic/fish-kubectl-abbr'
+      - "jethrokuan/z"
+      - "patrickf1/fzf.fish"
+      - "h-matsuo/fish-color-scheme-switcher"
+      - "gazorby/fish-abbreviation-tips"
+      - "ilancosman/tide@v6"
+      - "jorgebucaran/autopair.fish"
+      - "lewisacidic/fish-kubectl-abbr"
+      - "jorgebucaran/replay.fish"
+      - "halostatue/fish-utils-core@v3"
+      - "halostatue/fish-macos@v7"
+      - "franciscolourenco/done"
