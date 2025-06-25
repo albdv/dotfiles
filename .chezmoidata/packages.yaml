@@ -9,7 +9,6 @@ packages:
       - 'gromgit/fuse'
       - 'hashicorp/tap'
       - 'homebrew/bundle'
-      - 'homebrew/command-not-found'
       - 'homebrew/services'
       - 'localstack/tap'
       - 'ubuntu/microk8s'
