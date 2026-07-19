@@ -15,7 +15,4 @@ cask {{ . | quote }}
 mas {{ .name | quote }}, id: {{ .id }}
 {{ end -}}
 EOF
-{{ range .packages.darwin.fisher -}}
-fish -c 'fisher install {{ . | quote }}'
-{{ end -}}
 {{ end -}}
