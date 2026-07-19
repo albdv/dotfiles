@@ -78,7 +78,3 @@ fish_add_path {{ .chezmoi.homeDir }}/.cargo/bin
 # aliasing rm to trash
 alias rm="trash"
 
-## bat -> cat
-if type -q bat
-    set -gx MANPAGER "bat -l man -p"
-end
