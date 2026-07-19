@@ -75,6 +75,8 @@ fish_add_path {{ .chezmoi.homeDir }}/go/bin
 # Add cargo/rust to path
 fish_add_path {{ .chezmoi.homeDir }}/.cargo/bin
 
-# aliasing rm to trash
+# aliasing
 alias rm="trash"
-
+alias ls='eza --icons'
+alias ll='eza -lh --icons --git'
+alias la='eza -lah --icons --git'
