@@ -14,7 +14,6 @@ Host *
     GatewayPorts no
     Tunnel no
     ConnectTimeout 30
-    ServerAliveInterval 10
     ControlMaster auto
     ControlPersist yes
     ServerAliveCountMax 30
@@ -25,7 +24,7 @@ Host *
     HostbasedAuthentication no
 
     # define authentication methods to be used
-    PasswordAuthentication yes
+    PasswordAuthentication no
     PubkeyAuthentication yes
     PreferredAuthentications publickey,password
 
