@@ -78,6 +78,9 @@ fish_add_path {{ .chezmoi.homeDir }}/go/bin
 # Add cargo/rust to path
 fish_add_path {{ .chezmoi.homeDir }}/.cargo/bin
 
+# Add proper trash to path
+fish_add_path /opt/homebrew/opt/trash/bin
+
 # aliasing
 alias rm="trash"
 alias diff='diff --color=auto'
