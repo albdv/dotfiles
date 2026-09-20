@@ -58,16 +58,6 @@ end
 ## zoxide
 zoxide init fish | source
 
-## kubeswitch
-if type -q switcher
-    switcher init fish | source
-end
-
-# optionally use alias `s` instead of `kubeswitch` (add to config.fish)
-function s --wraps switcher
-    kubeswitch $argv;
-end
-
 # Add local bin to paths
 fish_add_path {{ .chezmoi.homeDir }}/.local/bin
 
